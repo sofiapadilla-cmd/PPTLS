@@ -6,6 +6,7 @@ namespace PPTLS;
 
 public partial class MainWindow : Window
 {
+    IJugada Jugada;
     private Juego juego;
 
     public MainWindow()
@@ -16,13 +17,9 @@ public partial class MainWindow : Window
 
     private void BtnPiedra_Click(object sender, RoutedEventArgs e)
     {
-        //ACCIÓN
+        Jugada = new Piedra();
+        MessageBox.Show(juego.Jugar(Jugada));
     }
 
     //AGREGAR LAS DEMÁS REGLAS
-
-    private void Jugar(IJugada jugada)
-    {
-        txtResultado.Text = juego.Jugar(jugada);
-    }
 }
