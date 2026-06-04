@@ -25,7 +25,8 @@
 <Button
     Width = "300"
     Height = "100"
-    Click = "BtnPiedra_Click">
+    Click = "BtnPiedra_Click"
+    Background = "#FCCEC0">
     <StackPanel>
         <TextBlock>Piedra</TextBlock>
         <Image Source = "Imagenes\Piedra.png">
@@ -46,7 +47,8 @@
 <Button 
     Width = "300"
     Height = "100"
-    Click = "BtnTijeras_Click">
+    Click = "BtnTijera_Click"
+    Background = "#FCCEC0">
     <StackPanel>
             <TextBlock>Tijeras"</TextBlock>
             <Image Source="Imagenes\Tijeras.png" >
@@ -67,7 +69,8 @@
     <Button 
     Width = "300"
     Height = "100"
-    Click = "BtnSpoke_Click">
+    Click = "BtnSpock_Click"
+    Background = "#FCCEC0">
     <StackPanel>
             <TextBlock>Tijeras"</TextBlock>
             <Image Source="Imagenes\Spoke.png" >
@@ -88,7 +91,8 @@
     <Button 
     Width = "300"
     Height = "100"
-    Click = "BtnLagarto_Click">
+    Click = "BtnLagarto_Click"
+    Background = "#FCCEC0">
     <StackPanel>
             <TextBlock>Tijeras"</TextBlock>
             <Image Source="Imagenes\Lagarto.png" >
@@ -109,7 +113,8 @@
     <Button 
     Width = "300"
     Height = "100"
-    Click = "BtnPapel_Click">
+    Click = "BtnPapel_Click"
+    Background = "#FCCEC0">
     <StackPanel>
             <TextBlock>Tijeras"</TextBlock>
             <Image Source="Imagenes\Papel.png" >

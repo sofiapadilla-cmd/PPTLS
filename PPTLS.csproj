@@ -8,19 +8,19 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
-<iteamgroup> 
-  <Resource include = "imagenes\Lagarto.png.png">
-  <Resource include = "imagenes\Papel.png.png">
-  <Resource include = "imagenes\Piedra.png.png">
-  <Resource include = "imagenes\Spock.png.png">
-  <Resource include = "imagenes\Tijeras.png.png">
+<itemgroup> 
+  <Resource include = "imagenes\Lagarto.png">
+  <Resource include = "imagenes\Papel.png">
+  <Resource include = "imagenes\Piedra.png">
+  <Resource include = "imagenes\Spock.png">
+  <Resource include = "imagenes\Tijeras.png">
   <Resource include = "sonidos\Lagarto.wav">
-  <Resource include = "sonidos\Papel.wav">
-  <Resource include = "sonidos\Piedra.wav">
-  <Resource include = "sonidos\Spock.wav">
-  <Resource include = "sonidos\Tijeras.wav">
+  <Resource include = "sonidos\Papel.mp3">
+  <Resource include = "sonidos\Piedra.mp3">
+  <Resource include = "sonidos\Spock.mp3">
+  <Resource include = "sonidos\Tijeras.mp3">
 
 
-</iteamgroup> 
+</itemgroup> 
 
 </Project>
