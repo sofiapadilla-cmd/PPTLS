@@ -2,8 +2,8 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Piedra, Papel, Tijera, Lagarto, Spock"
-        Height="700"
-        Width="480">
+        Height="750"
+        Width="520">
 
 <StackPanel Margin="20">
 
@@ -12,12 +12,14 @@
         FontWeight="Bold"
         TextWrapping="Wrap"
         TextAlignment="Center"
+        FontFamily ="Papyrus"
         Margin="0,0,0,20"/>
 
 <TextBlock Text = "Hecho por: Sofia Padilla, Beatriz Garibaldi y Sebastian Venegas"
     FontSize = "20"
     TextWrapping = "Wrap"
-    TextAlignment = "Center"/>
+    TextAlignment = "Center"
+    FontFamily ="Papyrus"/>
 
 <Button 
     Width = "300"
@@ -25,18 +27,11 @@
     Click = "BtnPiedra_Click"
     Background = "#FCCEC0">
     <StackPanel>
-            <TextBlock TextAlignment = "Center">Piedra</TextBlock>
+            <TextBlock TextAlignment = "Center" FontFamily ="Papyrus">Piedra</TextBlock>
             <Image Source="Imagenes\Piedra.png" Width = "100" Height = "100"/>
     </StackPanel>
     <Button.Style>
         <Style TargetType="Button">
-            <Style.Triggers>
-                <EventTrigger RoutedEvent="Button.Click">
-                    <EventTrigger.Actions>
-                        <SoundPlayerAction Source="sonidos\Piedra.mp3"/>
-                    </EventTrigger.Actions>
-                </EventTrigger>
-            </Style.Triggers>
         </Style>
      </Button.Style>
 </Button>
@@ -47,18 +42,11 @@
     Click = "BtnTijera_Click"
     Background = "#FCCEC0">
     <StackPanel>
-            <TextBlock TextAlignment = "Center">Tijera</TextBlock>
+            <TextBlock TextAlignment = "Center" FontFamily ="Papyrus">Tijera</TextBlock>
             <Image Source="Imagenes\Tijeras.png" Width = "100" Height = "100"/>
     </StackPanel>
     <Button.Style>
             <Style TargetType="Button">
-                <Style.Triggers>
-                    <EventTrigger RoutedEvent="Button.Click">
-                        <EventTrigger.Actions>
-                            <SoundPlayerAction Source="sonidos\Tijeras.mp3"/>
-                        </EventTrigger.Actions>
-                    </EventTrigger>
-                </Style.Triggers>
             </Style>
         </Button.Style>
 </Button>
@@ -69,18 +57,11 @@
     Click = "BtnSpock_Click"
     Background = "#FCCEC0">
     <StackPanel>
-             <TextBlock TextAlignment = "Center">Spock</TextBlock>
+             <TextBlock TextAlignment = "Center" FontFamily ="Papyrus">Spock</TextBlock>
              <Image Source="Imagenes\Spoke.png" Width = "100" Height = "100"/>
     </StackPanel>
     <Button.Style>
             <Style TargetType="Button">
-                <Style.Triggers>
-                    <EventTrigger RoutedEvent="Button.Click">
-                        <EventTrigger.Actions>
-                            <SoundPlayerAction Source="sonidos\Spoke.mp3"/>
-                        </EventTrigger.Actions>
-                    </EventTrigger>
-                </Style.Triggers>
             </Style>
         </Button.Style>
 </Button>
@@ -89,42 +70,29 @@
     Width = "300"
     Height = "100"
     Click = "BtnLagarto_Click"
-    Background = "#FCCEC0">
+    Background = "#FCCEC0"
+    FontFamily = "Comic Sans MS">
     <StackPanel>
-             <TextBlock TextAlignment = "Center">Lagarto</TextBlock>
+             <TextBlock TextAlignment = "Center" FontFamily ="Papyrus">Lagarto</TextBlock>
              <Image Source="Imagenes\Lagarto.png" Width = "100" Height = "100"/>
     </StackPanel>
     <Button.Style>
             <Style TargetType="Button">
-                <Style.Triggers>
-                    <EventTrigger RoutedEvent="Button.Click">
-                        <EventTrigger.Actions>
-                            <SoundPlayerAction Source="sonidos\Lagarto.mp3"/>
-                        </EventTrigger.Actions>
-                    </EventTrigger>
-                </Style.Triggers>
             </Style>
         </Button.Style>
     </Button>
     
 <Button 
     Width = "300"
-    Height = "100"
+    Height = "120"
     Click = "BtnPapel_Click"
     Background = "#FCCEC0">
     <StackPanel>
-             <TextBlock TextAlignment = "Center">Papel</TextBlock>
+             <TextBlock TextAlignment = "Center" FontFamily ="Papyrus">Papel</TextBlock>
              <Image Source="Imagenes\Papel.png" Width = "100" Height = "100"/>
     </StackPanel>
     <Button.Style>
         <Style TargetType="Button">
-            <Style.Triggers>
-                <EventTrigger RoutedEvent="Button.Click">
-                    <EventTrigger.Actions>
-                        <SoundPlayerAction Source="sonidos\Papel.mp3"/>
-                    </EventTrigger.Actions>
-                </EventTrigger>
-            </Style.Triggers>
         </Style>
     </Button.Style>
 </Button>
