@@ -34,19 +34,22 @@ public class Juego
     public string Jugar(IJugada jugadaHumana)
     {
         JugadorHumano.ElegirJugada(jugadaHumana);
-
         //AQUÍ FALTA ALGO
+        IJugada jugadaCPU = ObtenerJugadaAleatoria();
         string resultado = jugadaHumana.ResolverContra(jugadaCPU);
 
+        //ermm error,,,
         ActualizarMarcador(resultado);
 
         return
-            $"Jugador eligio: {jugadaHumana.Nombre}
-" +
-            $"CPU eligio: {jugadaCPU.Nombre}
+            $"Jugador eligio: {jugadaHumana.Nombre}" +
+            $"CPU eligio: {jugadaCPU.Nombre}" +
+            $"{resultado}";
+    }
 
-" +
-            $"{resultado}
+    public string ActualizarMarcador(string resultado)
+    {
+        return resultado;
     }
 
     private IJugada ObtenerJugadaAleatoria()

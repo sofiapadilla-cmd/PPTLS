@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\betty\\PPTLS\\PPTLS.csproj": {}
+    "C:\\Users\\eeee3\\PPTLS\\PPTLS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\betty\\PPTLS\\PPTLS.csproj": {
+    "C:\\Users\\eeee3\\PPTLS\\PPTLS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\betty\\PPTLS\\PPTLS.csproj",
+        "projectUniqueName": "C:\\Users\\eeee3\\PPTLS\\PPTLS.csproj",
         "projectName": "PPTLS",
-        "projectPath": "C:\\Users\\betty\\PPTLS\\PPTLS.csproj",
-        "packagesPath": "C:\\Users\\betty\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\betty\\PPTLS\\obj\\",
+        "projectPath": "C:\\Users\\eeee3\\PPTLS\\PPTLS.csproj",
+        "packagesPath": "C:\\Users\\eeee3\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eeee3\\PPTLS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\betty\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\eeee3\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0-windows"
@@ -23,8 +23,7 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net10.0-windows": {
-            "framework": "net10.0-windows7.0",
+          "net10.0-windows7.0": {
             "targetAlias": "net10.0-windows",
             "projectReferences": {}
           }
@@ -39,11 +38,10 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
-        "net10.0-windows": {
-          "framework": "net10.0-windows7.0",
+        "net10.0-windows7.0": {
           "targetAlias": "net10.0-windows",
           "imports": [
             "net461",
@@ -64,7 +62,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

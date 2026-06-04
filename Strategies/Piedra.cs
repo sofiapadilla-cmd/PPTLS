@@ -1,3 +1,5 @@
+using System.Windows.Automation;
+
 namespace PPTLS.Strategies;
 
 public class Piedra : IJugada
@@ -9,6 +11,16 @@ public class Piedra : IJugada
         if (oponente is Tijera)
             return "Gana: Piedra rompe Tijera";
 
-        //AGREGAR LAS DEMÁS REGLAS
+         if (oponente is Papel)
+            return "Pierde: Papel envuelve Piedra";
+
+         if (oponente is Piedra)
+            return "Empate: Piedra y Piedra";
+        
+        if (oponente is Spock)
+            return "Pierde: Spock vaporiza piedra";
+
+        else
+            return "Gana: Piedra aplasta lagarto";
     }
 }
