@@ -1,0 +1,5 @@
+c:\Users\david\PPTLS\obj\Debug\net10.0-windows\App.g.cs
+c:\Users\david\PPTLS\obj\Debug\net10.0-windows\PPTLS_MarkupCompile.cache
+C:\Users\david\PPTLS\obj\Debug\net10.0-windows\MainWindow.baml
+C:\Users\david\PPTLS\obj\Debug\net10.0-windows\MainWindow.g.cs
+C:\Users\david\PPTLS\obj\Debug\net10.0-windows\PPTLS.g.resources

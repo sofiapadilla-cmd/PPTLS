@@ -5,43 +5,40 @@
         Height="560"
         Width="480">
 
-    <StackPanel Margin="20">
+<StackPanel Margin="20">
 
-        <TextBlock Text="Piedra, Papel, Tijera, Lagarto, Spock"
-                   FontSize="22"
-                   FontWeight="Bold"
-                   TextWrapping="Wrap"
-                   TextAlignment="Center"
-                   Margin="0,0,0,20"/>
-
-//AGREGAR LOS DEMÁS ELEMENTOS
+<TextBlock Text="Piedra, Papel, Tijera, Lagarto, Spock"
+            FontSize="22"
+            FontWeight="Bold"
+            TextWrapping="Wrap"
+            TextAlignment="Center"
+            Margin="0,0,0,20"/>
 
 <TextBlock Text = "Hecho por: Sofia Padilla, Beatriz Garibaldi y Sebastian Venegas"
     FontSize = "10"
     TextWrapping = "Wrap"
-    TextAlignment = "Center"
-    >
+    TextAlignment = "Center"/>
 
-<Button
+<Button 
     Width = "300"
     Height = "100"
     Click = "BtnPiedra_Click"
     Background = "#FCCEC0">
     <StackPanel>
-        <TextBlock>Piedra</TextBlock>
-        <Image Source = "Imagenes\Piedra.png">
+            <TextBlock TextAlignment = "Center">Piedra</TextBlock>
+            <Image Source="Imagenes\Piedra.png" Width = "100" Height = "100"/>
     </StackPanel>
     <Button.Style>
-        <Style TargetType = "Button">
+        <Style TargetType="Button">
             <Style.Triggers>
-                <EventTrigger RoutedEvent = "Button.Click">
+                <EventTrigger RoutedEvent="Button.Click">
                     <EventTrigger.Actions>
-                        <SoundPlayerAction Source = "sonidos\Piedra.mp3">
+                        <SoundPlayerAction Source="sonidos\Piedra.mp3"/>
                     </EventTrigger.Actions>
                 </EventTrigger>
             </Style.Triggers>
         </Style>
-    </Button.Style>
+     </Button.Style>
 </Button>
 
 <Button 
@@ -50,8 +47,8 @@
     Click = "BtnTijera_Click"
     Background = "#FCCEC0">
     <StackPanel>
-            <TextBlock>Tijeras"</TextBlock>
-            <Image Source="Imagenes\Tijeras.png" >
+            <TextBlock TextAlignment = "Center">Tijera</TextBlock>
+            <Image Source="Imagenes\Tijera.png" Width = "100" Height = "100"/>
     </StackPanel>
     <Button.Style>
             <Style TargetType="Button">
@@ -64,16 +61,16 @@
                 </Style.Triggers>
             </Style>
         </Button.Style>
-    </Button>
+</Button>
 
-    <Button 
+<Button 
     Width = "300"
     Height = "100"
     Click = "BtnSpock_Click"
     Background = "#FCCEC0">
     <StackPanel>
-            <TextBlock>Tijeras"</TextBlock>
-            <Image Source="Imagenes\Spoke.png" >
+            <TextBlock TextAlignment = "Center">Spock</TextBlock>
+            <Image Source="Imagenes\Spock.png" Width = "100" Height = "100"/>
     </StackPanel>
     <Button.Style>
             <Style TargetType="Button">
@@ -86,7 +83,7 @@
                 </Style.Triggers>
             </Style>
         </Button.Style>
-    </Button>
+</Button>
 
     <Button 
     Width = "300"
@@ -94,8 +91,8 @@
     Click = "BtnLagarto_Click"
     Background = "#FCCEC0">
     <StackPanel>
-            <TextBlock>Tijeras"</TextBlock>
-            <Image Source="Imagenes\Lagarto.png" >
+             <TextBlock TextAlignment = "Center">Lagarto</TextBlock>
+            <Image Source="Imagenes\Lagarto.png" Width = "100" Height = "100"/>
     </StackPanel>
     <Button.Style>
             <Style TargetType="Button">
@@ -116,8 +113,8 @@
     Click = "BtnPapel_Click"
     Background = "#FCCEC0">
     <StackPanel>
-            <TextBlock>Tijeras"</TextBlock>
-            <Image Source="Imagenes\Papel.png" >
+             <TextBlock TextAlignment = "Center">Papel</TextBlock>
+            <Image Source="Imagenes\Papel.png" Width = "100" Height = "100"/>
     </StackPanel>
     <Button.Style>
             <Style TargetType="Button">
