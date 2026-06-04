@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PPTLS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b7eb9c8b717dcab7057b406bbf3e7c8152261ba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+37902118998f50e9d66887a9b7f429fefeebf9f2")]
 [assembly: System.Reflection.AssemblyProductAttribute("PPTLS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PPTLS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
