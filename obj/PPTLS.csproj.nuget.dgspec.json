@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\david\\PPTLS\\PPTLS.csproj": {}
+    "C:\\Users\\eeee3\\PPTLS\\PPTLS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\david\\PPTLS\\PPTLS.csproj": {
+    "C:\\Users\\eeee3\\PPTLS\\PPTLS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\david\\PPTLS\\PPTLS.csproj",
+        "projectUniqueName": "C:\\Users\\eeee3\\PPTLS\\PPTLS.csproj",
         "projectName": "PPTLS",
-        "projectPath": "C:\\Users\\david\\PPTLS\\PPTLS.csproj",
-        "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\david\\PPTLS\\obj\\",
+        "projectPath": "C:\\Users\\eeee3\\PPTLS\\PPTLS.csproj",
+        "packagesPath": "C:\\Users\\eeee3\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eeee3\\PPTLS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\eeee3\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0-windows"

@@ -8,9 +8,19 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
-<ItemGroup>
-  <Resource Include = "Imagenes\Piedra.png.png">
+<iteamgroup> 
+  <Resource inclide = "imagenes\Lagarto.png.png">
+  <Resource inclide = "imagenes\Papel.png.png">
+  <Resource inclide = "imagenes\Piedra.png.png">
+  <Resource inclide = "imagenes\Spock.png.png">
+  <Resource inclide = "imagenes\Tijeras.png.png">
+  <Resource inclide = "sonidos\Lagarto.wav">
+  <Resource inclide = "sonidos\Papel.wav">
+  <Resource inclide = "sonidos\Piedra.wav">
+  <Resource inclide = "sonidos\Spock.wav">
+  <Resource inclide = "sonidos\Tijeras.wav">
 
-</ItemGroup>
+
+</iteamgroup> 
 
 </Project>
