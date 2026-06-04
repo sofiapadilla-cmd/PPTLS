@@ -9,18 +9,16 @@
   </PropertyGroup>
 
 <itemgroup> 
-  <Resource include = "imagenes\Lagarto.png">
-  <Resource include = "imagenes\Papel.png">
+  <Resource include = "Imagenes\Lagarto.png">
+  <Resource include = "magenes\Papel.png">
   <Resource include = "imagenes\Piedra.png">
-  <Resource include = "imagenes\Spock.png">
-  <Resource include = "imagenes\Tijeras.png">
-  <Resource include = "sonidos\Lagarto.wav">
+  <Resource include = "Imagenes\Spock.png">
+  <Resource include = "Imagenes\Tijeras.png">
+  <Resource include = "sonidos\Lagarto.mp3">
   <Resource include = "sonidos\Papel.mp3">
   <Resource include = "sonidos\Piedra.mp3">
   <Resource include = "sonidos\Spock.mp3">
   <Resource include = "sonidos\Tijeras.mp3">
 
-
-</itemgroup> 
-
+</itemgroup>
 </Project>
