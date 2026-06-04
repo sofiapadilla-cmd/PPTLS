@@ -4,7 +4,7 @@ namespace PPTLS.Strategies;
 
 public class Spock : IJugada
 {
-    public string Nombre => "Piedra";
+    public string Nombre => "Spock";
 
     public string ResolverContra(IJugada oponente)
     {

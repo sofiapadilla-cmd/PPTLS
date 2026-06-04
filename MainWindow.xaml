@@ -8,14 +8,14 @@
 <StackPanel Margin="20">
 
 <TextBlock Text="Piedra, Papel, Tijera, Lagarto, Spock"
-        FontSize="22"
+        FontSize="32"
         FontWeight="Bold"
         TextWrapping="Wrap"
         TextAlignment="Center"
         Margin="0,0,0,20"/>
 
 <TextBlock Text = "Hecho por: Sofia Padilla, Beatriz Garibaldi y Sebastian Venegas"
-    FontSize = "10"
+    FontSize = "20"
     TextWrapping = "Wrap"
     TextAlignment = "Center"/>
 

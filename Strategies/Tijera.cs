@@ -4,7 +4,7 @@ namespace PPTLS.Strategies;
 
 public class Tijera : IJugada
 {
-    public string Nombre => "Piedra";
+    public string Nombre => "Tijera";
 
     public string ResolverContra(IJugada oponente)
     {
