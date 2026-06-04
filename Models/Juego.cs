@@ -38,12 +38,11 @@ public class Juego
         IJugada jugadaCPU = ObtenerJugadaAleatoria();
         string resultado = jugadaHumana.ResolverContra(jugadaCPU);
 
-        //ermm error,,,
         ActualizarMarcador(resultado);
 
         return
-            $"Jugador eligio: {jugadaHumana.Nombre}" +
-            $"CPU eligio: {jugadaCPU.Nombre}" +
+            $"Jugador eligio: {jugadaHumana.Nombre}\n" +
+            $"CPU eligio: {jugadaCPU.Nombre}\n" +
             $"{resultado}";
     }
 

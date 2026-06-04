@@ -10,14 +10,14 @@
 
 <ItemGroup> 
   <Resource Include = "Imagenes\Lagarto.png"/>
-  <Resource Include = "magenes\Papel.png"/>
-  <Resource Include = "imagenes\Piedra.png"/>
-  <Resource Include = "Imagenes\Spock.png"/>
+  <Resource Include = "Imagenes\Papel.png"/>
+  <Resource Include = "Imagenes\Piedra.png"/>
+  <Resource Include = "Imagenes\Spoke.png"/>
   <Resource Include = "Imagenes\Tijeras.png"/>
   <Resource Include = "sonidos\Lagarto.mp3"/>
   <Resource Include = "sonidos\Papel.mp3"/>
   <Resource Include = "sonidos\Piedra.mp3"/>
-  <Resource Include = "sonidos\Spock.mp3"/>
+  <Resource Include = "sonidos\Spoke.mp3"/>
   <Resource Include = "sonidos\Tijeras.mp3"/>
 </ItemGroup>
 </Project>
