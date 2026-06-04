@@ -9,16 +9,16 @@
   </PropertyGroup>
 
 <iteamgroup> 
-  <Resource inclide = "imagenes\Lagarto.png.png">
-  <Resource inclide = "imagenes\Papel.png.png">
-  <Resource inclide = "imagenes\Piedra.png.png">
-  <Resource inclide = "imagenes\Spock.png.png">
-  <Resource inclide = "imagenes\Tijeras.png.png">
-  <Resource inclide = "sonidos\Lagarto.wav">
-  <Resource inclide = "sonidos\Papel.wav">
-  <Resource inclide = "sonidos\Piedra.wav">
-  <Resource inclide = "sonidos\Spock.wav">
-  <Resource inclide = "sonidos\Tijeras.wav">
+  <Resource include = "imagenes\Lagarto.png.png">
+  <Resource include = "imagenes\Papel.png.png">
+  <Resource include = "imagenes\Piedra.png.png">
+  <Resource include = "imagenes\Spock.png.png">
+  <Resource include = "imagenes\Tijeras.png.png">
+  <Resource include = "sonidos\Lagarto.wav">
+  <Resource include = "sonidos\Papel.wav">
+  <Resource include = "sonidos\Piedra.wav">
+  <Resource include = "sonidos\Spock.wav">
+  <Resource include = "sonidos\Tijeras.wav">
 
 
 </iteamgroup> 
